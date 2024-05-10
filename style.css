@@ -1,0 +1,110 @@
+:root {
+    --color-primary-1: #022950;
+    --color-primary-2: #f0f0f0;
+    --color-primary-3: #093e66;
+    --color-primary-4: #101b41;
+    --color-primary-5: #000000;
+    --color-primary-6: #0b0b0f;
+    --color-primary-7: #b9b9b9;
+    --color-neutral-0: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    top: 25%;
+}
+
+body {
+    text-align: center;
+    background-color: var(--color-primary-1);
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    padding-top: 16px;
+    line-height: 4.0;
+    background-image: linear-gradient(150deg, rgb(50, 83, 182), rgb(156, 124, 124));
+    border: 0px solid var(--color-neutral-0);
+    width: 710px;
+    height: 420px;
+    border-radius: 27px;
+    margin: 0 640px;
+    box-shadow: -20px 20px 30px 10px var(--color-primary-5);
+}
+
+h1 {
+    font-weight: bold;
+    color: var(--color-primary-4);
+    letter-spacing: 3px;
+    text-indent: 20px;
+}
+
+.senha {
+    position: relative;
+    top: -40px;
+    right: 20%;
+    font-size: 16pt;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: var(--color-primary-4);
+}
+
+.form-inputfield {
+    margin-top: 35px;
+}
+
+input {
+    position: relative;
+    top: -50%;
+    width: 102%;
+    height: 30px;
+    border-radius: 7px;
+    background-color: var(--color-primary-7);
+    border-color: var(--color-primary-7);
+    box-shadow: 2px 4px 8px var(--color-primary-5);
+}
+
+[value="Email"] {
+    padding-left: 18px;
+}
+
+button {
+    position: absolute;
+    top: 63%;
+    width: 120px;
+    height: 32px;
+    margin-left: -55px;
+    font-size: 11pt;
+    cursor: pointer;
+    letter-spacing: 2px;
+    background-color: var(--color-primary-3);
+    border-color: var(--color-primary-3);
+    color: var(--color-primary-2);
+    border-radius: 8px;
+}
+
+.label,
+a {
+    position: absolute;
+    cursor: pointer;
+    top: 285px;
+    text-indent: -51px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.div,
+img {
+    position: relative;
+    top: -41%;
+    left: 32%;
+    width: 50%;
+}
